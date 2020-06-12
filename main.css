@@ -1,0 +1,72 @@
+/* globals */
+
+:root {
+    --main-color: #01996D;
+}
+
+
+/* for navbar */
+
+.navbar {
+    background-color: white;
+    /* display: flex; */
+    box-shadow: 0px 0px 5px grey;
+}
+
+.navbar-brand {
+    color: var(--main-color) !important;
+    font-family: lato;
+    font-size: 30px !important;
+}
+
+#contain {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#pricing {
+    background-color: var(--main-color);
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/* banner section */
+
+.banner {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.banner-text>header {
+    font-family: Georgia;
+    line-height: 60px;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.banner-text {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+
+.banner-text>p {
+    font-family: lato;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.banner-button {
+    margin-top: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .nav-item>a {
+        margin-left: 30px;
+    }
+}
